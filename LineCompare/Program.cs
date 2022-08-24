@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            LineComparession lineCompProblem = new LineComparession(1, 2, 3, 4);
+            lineCompProblem.CalculateLength();
         }
     }
 }
